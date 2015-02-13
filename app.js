@@ -1,0 +1,1 @@
+var packeryApp = angular.module('packeryApp', [ 'ngAnimate', 'angular-packery' ]);

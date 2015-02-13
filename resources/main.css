@@ -1,0 +1,34 @@
+* {
+   -webkit-box-sizing: border-box;   
+      -moz-box-sizing: border-box;   
+           box-sizing: border-box; 
+  }
+
+h3 {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.packery-sizer, .packery-object {
+  width: 360px;
+  height: 500px;
+}
+.packery-object{
+  border: 1px solid #000;
+}
+.packery-object {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+}
+
+.packery-object.hovered {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.packery-object.lifted {
+  box-shadow: 0 13px 33px rgba(100,100,100,0.30), 0 8px 12px rgba(100,100,100,0.22);
+  z-index: 5;
+}
